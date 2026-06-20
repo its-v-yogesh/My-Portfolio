@@ -56,7 +56,13 @@ button:hover{
     justify-content:space-between;
     align-items:center;
     box-shadow:0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.about:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
 
 .about img{
     width:180px;
@@ -82,7 +88,13 @@ button:hover{
     background:white;
     padding:25px;
     border-radius:15px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
 }
 
 .card h2{
@@ -94,6 +106,17 @@ button:hover{
     display:flex;
     flex-wrap:wrap;
     gap:10px;
+}
+.skill1{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.skill1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
 }
 
 .skills span{
